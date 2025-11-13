@@ -1,0 +1,111 @@
+/* Red color for required asterisk */
+.required-asterisk {
+  color: red;
+  font-weight: bold;
+}
+
+/* Container styling */
+.registration-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.registration-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Labels */
+.registration-form label {
+  margin-top: 10px;
+  font-weight: 600;
+  display: block;
+  color: #444;
+}
+
+/* Inputs, selects, buttons */
+.registration-form input,
+.registration-form select,
+.registration-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.registration-form input:focus,
+.registration-form select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button styling */
+.registration-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Radio group */
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+/* Checkbox group */
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.checkbox-group.single-line {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+/* Required field indicator */
+.required {
+  color: red;
+  margin-left: 2px;
+}
+
+/* Checkbox label styling */
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: normal;
+}
+
+/* Error message */
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+

@@ -1,0 +1,123 @@
+/* Layout spacing */
+.notifications-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.notifications-main {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar-wrapper {
+  width: 250px;
+  background-color: #f8f9fa;
+}
+
+.notifications-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+/* Card styling */
+.notifications-card {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 1200px;
+}
+
+/* Header */
+.notifications-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1976d2;
+}
+
+/* Notification item spacing */
+.notification-item {
+  line-height: 1.8em;
+  font-size: 16px;
+}
+
+.notification-item span {
+  margin-right: 12px;
+}
+
+/* Emphasis */
+.doctor-name {
+  font-weight: bold;
+}
+
+.slot {
+  font-weight: 500;
+}
+
+.time-range {
+  font-style: italic;
+}
+
+/* Badge colors (optional override) */
+.status.approved {
+  background-color: #198754 !important;
+}
+
+.status.cancelled {
+  background-color: #dc3545 !important;
+}
+
+.status.pending {
+  background-color: #ffc107 !important;
+}
+/* .notification-item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 16px;
+  }
+   
+  .text-normal {
+  
+    color: #34495e;
+  }
+   
+  .doctor-name {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+   
+  .appointment-date {
+    color: #34495e;
+  }
+   
+  .slot {
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+   
+  .slot.morning {
+    background-color: #3498db;
+  }
+   
+  .slot.evening {
+    background-color: #9b59b6;
+  }
+   
+  .time-range {
+    font-style: italic;
+    color: #7f8c8d;
+  }
+   
+  .status {
+    margin-left: 10px;
+    font-weight: bold;
+  }
+   
+    */

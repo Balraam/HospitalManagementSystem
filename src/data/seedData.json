@@ -1,0 +1,714 @@
+{
+  "notifications": [
+    {
+      "id": "9972",
+      "recipient": "admin",
+      "message": "New appointment booked by Pulkit with Dr.Amey Patil on 2025-10-22 (5PM - 6PM)",
+      "timestamp": "2025-10-16T12:36:23.699Z",
+      "read": false
+    },
+    {
+      "id": "8df9",
+      "recipient": "doctor",
+      "message": "New appointment booked by Pulkit with Dr.Amey Patil on 2025-10-22 (5PM - 6PM)",
+      "timestamp": "2025-10-16T12:36:23.720Z",
+      "read": false
+    },
+    {
+      "id": "72df",
+      "recipient": "patient",
+      "message": "New appointment booked by Pulkit with Dr.Amey Patil on 2025-10-22 (5PM - 6PM)",
+      "timestamp": "2025-10-16T12:36:23.737Z",
+      "read": false
+    },
+    {
+      "id": "faa3",
+      "recipient": "admin",
+      "message": "New appointment booked by vivek kumar with Dr.Amey Patil on 2025-11-14 (9AM - 10AM)",
+      "timestamp": "2025-11-13T14:00:22.962Z",
+      "read": false
+    },
+    {
+      "id": "31fe",
+      "recipient": "doctor",
+      "message": "New appointment booked by vivek kumar with Dr.Amey Patil on 2025-11-14 (9AM - 10AM)",
+      "timestamp": "2025-11-13T14:00:22.997Z",
+      "read": false
+    },
+    {
+      "id": "621b",
+      "recipient": "patient",
+      "message": "New appointment booked by vivek kumar with Dr.Amey Patil on 2025-11-14 (9AM - 10AM)",
+      "timestamp": "2025-11-13T14:00:23.030Z",
+      "read": false
+    },
+    {
+      "id": "1a89",
+      "recipient": "admin",
+      "message": "New appointment booked by vivek kumar with Dr.Ruchi Patil on 2025-11-26 (12PM - 1PM)",
+      "timestamp": "2025-11-13T17:41:30.862Z",
+      "read": false
+    },
+    {
+      "id": "e507",
+      "recipient": "doctor",
+      "message": "New appointment booked by vivek kumar with Dr.Ruchi Patil on 2025-11-26 (12PM - 1PM)",
+      "timestamp": "2025-11-13T17:41:30.894Z",
+      "read": false
+    },
+    {
+      "id": "aeaf",
+      "recipient": "patient",
+      "message": "New appointment booked by vivek kumar with Dr.Ruchi Patil on 2025-11-26 (12PM - 1PM)",
+      "timestamp": "2025-11-13T17:41:30.922Z",
+      "read": false
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Dr.Amey Patil",
+      "email": "ameypatil@gmail.com",
+      "phone": "7989655676",
+      "password": "Amey@123",
+      "address": "B-1400 Bhimashankar heights",
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "pincode": "400068",
+      "speciality": "Neurology",
+      "qualification": "MBBS, MD",
+      "yearsOfExp": "10",
+      "availableDays": [
+        "Monday",
+        "Wednesday",
+        "Friday"
+      ],
+      "availableSlots": {
+        "morning": [
+          "9AM - 10AM",
+          "10AM - 11AM",
+          "11AM - 12AM",
+          "12PM - 1PM"
+        ],
+        "evening": [
+          "5PM - 6PM",
+          "6PM - 7PM",
+          "7PM - 8PM",
+          "8PM - 9PM"
+        ]
+      },
+      "id": "6300",
+      "resetToken": null
+    },
+    {
+      "name": "Dr.Ruchi Patil",
+      "email": "ruchi.nemlekar@gmail.com",
+      "phone": "7989655676",
+      "address": "Mumbai- MH",
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "pincode": "400068",
+      "speciality": "Dermatology",
+      "qualification": "MBBS",
+      "yearsOfExp": "10",
+      "availableDays": [
+        "Monday",
+        "Wednesday"
+      ],
+      "availableSlots": {
+        "morning": [
+          "9AM - 10AM",
+          "10AM - 11AM",
+          "11AM - 12AM",
+          "12PM - 1PM"
+        ],
+        "evening": [
+          "5PM - 6PM",
+          "6PM - 7PM",
+          "7PM - 8PM",
+          "8PM - 9PM"
+        ]
+      },
+      "id": "1910"
+    },
+    {
+      "speciality": "General Medicine",
+      "name": "Dr.Kumar",
+      "email": "kumar@gmail.com",
+      "address": "Hyderabad",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "pincode": "500001",
+      "password": "Kumar@123%",
+      "phone": "1234567893",
+      "qualification": "MBBS,BDS",
+      "experience": "4",
+      "availableDays": [
+        "Tuesday",
+        "Thursday"
+      ],
+      "availableSlots": {
+        "morning": [
+          "9AM - 10AM",
+          "10AM - 11AM",
+          "11AM - 12AM",
+          "12PM - 1PM"
+        ],
+        "evening": [
+          "5PM - 6PM",
+          "6PM - 7PM",
+          "7PM - 8PM",
+          "8PM - 9PM"
+        ]
+      },
+      "id": "8d4c"
+    },
+    {
+      "name": "Dr.Teja",
+      "email": "teja@gmail.com",
+      "password": "Teja@1234",
+      "phone": "9032323434",
+      "address": "Hyderabad",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "pincode": "500001",
+      "speciality": "Dermatology",
+      "qualification": "MBBS , MD",
+      "yearsOfExp": "",
+      "availableDays": [
+        "Wednesday",
+        "Friday"
+      ],
+      "availableSlots": [],
+      "id": "4b33"
+    },
+    {
+      "name": "Dr.Ramesh babu",
+      "email": "rameshbabu@gmail.com",
+      "password": "Ramesh@123",
+      "phone": "7416174030",
+      "address": "Hyderabad",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "pincode": "500001",
+      "speciality": "General Medicine",
+      "qualification": "MBBS",
+      "experience": "4",
+      "availableDays": [
+        "Tuesday",
+        "Thursday"
+      ],
+      "availableSlots": {
+        "morning": [
+          "9AM - 10AM",
+          "10AM - 11AM",
+          "11AM - 12AM",
+          "12PM - 1PM"
+        ],
+        "evening": [
+          "5PM - 6PM",
+          "6PM - 7PM",
+          "7PM - 8PM",
+          "8PM - 9PM"
+        ]
+      },
+      "id": "01c7"
+    },
+    {
+      "id": "d77a",
+      "name": "Sandeep",
+      "email": "sandeep@gmail.com",
+      "password": "Sandy@123",
+      "phone": "7416174030",
+      "address": "Hyderabad",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "pincode": "500001",
+      "qualification": "MBBS , MD",
+      "experience": "4",
+      "availableDays": [
+        "Monday",
+        "Wednesday"
+      ],
+      "availableSlots": {
+        "morning": [
+          "9AM - 10AM",
+          "10AM - 11AM",
+          "11AM - 12AM",
+          "12PM - 1PM"
+        ],
+        "evening": [
+          "5PM - 6PM",
+          "6PM - 7PM",
+          "7PM - 8PM",
+          "8PM - 9PM"
+        ]
+      },
+      "speciality": "Dermatology",
+      "resetToken": null
+    },
+    {
+      "id": "9e68",
+      "name": "Shreyash",
+      "email": "shreyash@gmail.com",
+      "password": "Shreyash@143",
+      "phone": "7416174030",
+      "address": "Hyderabad",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "pincode": "500001",
+      "qualification": "MBBS , MD",
+      "experience": "4",
+      "speciality": "Psychiatry",
+      "availableDays": [
+        "Monday",
+        "Wednesday"
+      ],
+      "availableSlots": {
+        "morning": [
+          "9AM - 10AM",
+          "10AM - 11AM",
+          "11AM - 12AM",
+          "12PM - 1PM"
+        ],
+        "evening": [
+          "5PM - 6PM",
+          "6PM - 7PM",
+          "7PM - 8PM",
+          "8PM - 9PM"
+        ]
+      },
+      "resetToken": null
+    },
+    {
+      "id": "3030",
+      "name": "Dr.Lokesh",
+      "email": "lokesh@gmail.com",
+      "password": "Lokesh@123",
+      "address": "Hyderabad",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "pincode": "500001",
+      "phone": "7989655676",
+      "qualification": "MD, FRCS",
+      "speciality": "Pediatrics",
+      "experience": "5",
+      "availableDays": [
+        "Monday",
+        "Wednesday"
+      ],
+      "availableSlots": {
+        "morning": [
+          "9AM - 10AM",
+          "10AM - 11AM",
+          "11AM - 12AM",
+          "12PM - 1PM"
+        ],
+        "evening": [
+          "5PM - 6PM",
+          "6PM - 7PM",
+          "7PM - 8PM",
+          "8PM - 9PM"
+        ]
+      },
+      "resetToken": "7dcq2whxr2w"
+    }
+  ],
+  "doctor-speciality": [
+    {
+      "id": "1",
+      "speciality": "General Medicine"
+    },
+    {
+      "id": "2",
+      "speciality": "Cardiology"
+    },
+    {
+      "id": "3",
+      "speciality": "Dermatology"
+    },
+    {
+      "id": "4",
+      "speciality": "Neurology"
+    },
+    {
+      "id": "5",
+      "speciality": "Pediatrics"
+    },
+    {
+      "id": "6",
+      "speciality": "Psychiatry"
+    },
+    {
+      "id": "7",
+      "speciality": "Orthopedics"
+    }
+  ],
+  "patients": [
+    {
+      "id": "140d",
+      "name": "Pulkit",
+      "email": "pulkitsingh246@gmail.com",
+      "password": "Pulkit@143",
+      "phone": "9247204030",
+      "profilePhoto": {},
+      "address": "House no 201",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560068",
+      "bloodGroup": "AB+",
+      "allergies": "NA",
+      "conditions": "NA",
+      "medications": "NA",
+      "emergencyContact": "4345556656",
+      "resetToken": "83uxtjqwwst",
+      "fullName": "Pulkit Singh"
+    },
+    {
+      "id": "07ea",
+      "name": "Rambabu",
+      "email": "rambabu@gmail.com",
+      "password": "Abcd@123",
+      "phone": "7989655676",
+      "address": "Hyderabad",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "pincode": "500001",
+      "dob": "2010-02-10",
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "emergencyContact": "1234567891",
+      "resetToken": null
+    },
+    {
+      "id": "140d",
+      "name": "Ruchi Patel",
+      "email": "ruchi.nemlekar@gmail.com",
+      "password": "akshay@123",
+      "phone": "09111740177",
+      "profilePhoto": {},
+      "address": "House no 201",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560068",
+      "bloodGroup": "AB+",
+      "allergies": "NA",
+      "conditions": "NA",
+      "medications": "NA",
+      "emergencyContact": "43455566566",
+      "resetToken": "2cl7o3c90vr"
+    },
+    {
+      "id": "a801",
+      "name": "Teju",
+      "email": "teju@gmail.com",
+      "password": "Teju@143",
+      "phone": "7416174030",
+      "address": "Hyderabad",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "pincode": "500001",
+      "dob": "2025-10-09",
+      "gender": "Female",
+      "bloodGroup": "B+",
+      "emergencyContact": "1234567891",
+      "fullName": "Teju"
+    },
+    {
+      "id": "9a56",
+      "name": "Manikanta",
+      "email": "manikanta@gmail.com",
+      "password": "Manika@123",
+      "phone": "1234567891",
+      "address": "Hyderabad",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "pincode": "500001",
+      "dob": "2021-02-01",
+      "gender": "Male",
+      "bloodGroup": "A+",
+      "emergencyContact": "1234567891",
+      "resetToken": "kahmb80xw7c"
+    },
+    {
+      "id": "30d7",
+      "name": "Venkatesh",
+      "email": "venkatesh@gmail.com",
+      "password": "Venky@123",
+      "phone": "7989655676",
+      "address": "B-1400 Bhimashankar heights",
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "pincode": "400068",
+      "dob": "2019-02-15",
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "emergencyContact": "9247204030"
+    },
+    {
+      "id": "243e",
+      "name": "Surya",
+      "email": "surya@gmail.com",
+      "password": "Surya@123",
+      "phone": "8712338055",
+      "address": "Hyderabad",
+      "state": "Telangana",
+      "city": "Warangal",
+      "pincode": "506330",
+      "dob": "2021-02-09",
+      "gender": "Male",
+      "bloodGroup": "A+",
+      "emergencyContact": "9247204030",
+      "resetToken": null
+    },
+    {
+      "id": "825e",
+      "name": "vivek kumar",
+      "email": "vivekk@gmail.com",
+      "password": "abcd@123",
+      "phone": "8987876665",
+      "address": "Bihar",
+      "state": "Bihar",
+      "city": "Bihar",
+      "pincode": "544322",
+      "dob": "2025-11-11",
+      "gender": "Male",
+      "bloodGroup": "A+",
+      "emergencyContact": "6544322212",
+      "resetToken": "lb02mrq6r3o"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "name": "Balram verma",
+      "email": "Balramv@gmail.com",
+      "phone": "7989655676",
+      "password": "Admin@123",
+      "address": "Bhopal",
+      "state": "MP",
+      "city": "Gadarwara",
+      "pincode": "487881",
+      "resetToken": null
+    }
+  ],
+  "appointmentlist": [
+    {
+      "id": "3557",
+      "patientName": "Pulkit Singh",
+      "speciality": "Family Doctor",
+      "doctorName": "Dr.Amey Patil",
+      "reasonForBooking": "Normal Check up",
+      "appointmentDate": "2025-10-07",
+      "slot": "evening",
+      "timeRange": "7PM - 8PM",
+      "approvalStatus": "Cancelled",
+      "fullName": "Pulkit Singh",
+      "email": "pulkitsingh246@gmail.com",
+      "password": "pulkit@123",
+      "phone": "09111740177",
+      "profilePhoto": {},
+      "address": "House no 201",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560068",
+      "bloodGroup": "AB+",
+      "allergies": "NA",
+      "conditions": "NA",
+      "medications": "NA",
+      "emergencyContact": "43455566566"
+    },
+    {
+      "id": "d6de",
+      "patientName": "Rambabu",
+      "speciality": "General Medicine",
+      "doctorName": "Dr.Kumar",
+      "reasonForBooking": "Check up",
+      "appointmentDate": "2025-10-16",
+      "slot": "morning",
+      "timeRange": "10AM - 11AM",
+      "approvalStatus": "Approved",
+      "fullName": "Rambabu",
+      "email": "rambabu@gmail.com",
+      "password": "Harsha@143",
+      "phone": "09111740177",
+      "profilePhoto": {},
+      "address": "House no 201",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560068",
+      "bloodGroup": "AB+",
+      "allergies": "NA",
+      "conditions": "NA",
+      "medications": "NA",
+      "emergencyContact": "43455566566"
+    },
+    {
+      "id": "6535",
+      "patientName": "Bunty",
+      "speciality": "Orthopedics",
+      "doctorName": "Dr.Ramesh babu",
+      "reasonForBooking": "Cp",
+      "appointmentDate": "2025-10-16",
+      "slot": "morning",
+      "timeRange": "12PM - 1PM",
+      "approvalStatus": "Cancelled",
+      "fullName": "Bunty",
+      "email": "bunty@gmail.com",
+      "password": "pulkit@123",
+      "phone": "09111740177",
+      "profilePhoto": {},
+      "address": "House no 201",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560068",
+      "bloodGroup": "AB+",
+      "allergies": "NA",
+      "conditions": "NA",
+      "medications": "NA",
+      "emergencyContact": "43455566566"
+    },
+    {
+      "id": "d293",
+      "patientName": "Rambabu",
+      "speciality": "Dermatology",
+      "doctorName": "Ruchi Patil",
+      "reasonForBooking": "General check up",
+      "appointmentDate": "2025-10-13",
+      "slot": "evening",
+      "timeRange": "8PM - 9PM",
+      "approvalStatus": "Approved"
+    },
+    {
+      "id": "0060",
+      "patientName": "Nitish",
+      "speciality": "Dermatology",
+      "doctorName": "Ruchi Patil",
+      "reasonForBooking": "General Check up",
+      "appointmentDate": "2025-10-13",
+      "slot": "morning",
+      "timeRange": "11AM - 12PM",
+      "approvalStatus": "Cancelled"
+    },
+    {
+      "id": "cc5b",
+      "patientName": "Harsha",
+      "speciality": "Dermatology",
+      "doctorName": "Ruchi Patil",
+      "reasonForBooking": "Cp",
+      "appointmentDate": "2025-10-14",
+      "slot": "morning",
+      "timeRange": "11AM - 12PM",
+      "approvalStatus": "pending"
+    },
+    {
+      "id": "1ba7",
+      "patientName": "Pavan Sai",
+      "speciality": "Dermatology",
+      "doctorName": "Ruchi Patil",
+      "reasonForBooking": "General check up",
+      "appointmentDate": "2025-10-14",
+      "slot": "evening",
+      "timeRange": "7PM - 8PM",
+      "approvalStatus": "pending"
+    },
+    {
+      "id": "33c0",
+      "patientName": "Mahesh",
+      "speciality": "Neurology",
+      "doctorName": "Dr.Amey Patil",
+      "reasonForBooking": "Check up",
+      "appointmentDate": "2025-10-14",
+      "slot": "morning",
+      "timeRange": "11AM - 12PM",
+      "approvalStatus": "pending"
+    },
+    {
+      "id": "d6a6",
+      "patientName": "Manikanta",
+      "speciality": "Neurology",
+      "doctorName": "Dr.Amey Patil",
+      "reasonForBooking": "Normal check up",
+      "appointmentDate": "2025-10-18",
+      "slot": "morning",
+      "timeRange": "11AM - 12PM",
+      "approvalStatus": "Approved"
+    },
+    {
+      "id": "08fd",
+      "patientName": "Pulkit Singh",
+      "speciality": "Neurology",
+      "doctorName": "Dr.Amey Patil",
+      "reasonForBooking": "General Check up",
+      "appointmentDate": "2025-10-29",
+      "slot": "morning",
+      "timeRange": "10AM - 11AM",
+      "approvalStatus": "pending"
+    },
+    {
+      "id": "eec0",
+      "patientName": "Pulkit Singh",
+      "speciality": "General Medicine",
+      "doctorName": "Kumar",
+      "reasonForBooking": "Check Up",
+      "appointmentDate": "2025-10-28",
+      "slot": "morning",
+      "timeRange": "10AM - 11AM",
+      "approvalStatus": "Cancelled"
+    },
+    {
+      "id": "d260",
+      "patientName": "Surya",
+      "speciality": "Dermatology",
+      "doctorName": "Dr.Teja",
+      "reasonForBooking": "Check up",
+      "appointmentDate": "2025-10-24",
+      "slot": "morning",
+      "timeRange": "9AM - 10AM",
+      "approvalStatus": "Approved"
+    },
+    {
+      "id": "be0d",
+      "patientName": "Pulkit",
+      "speciality": "Pediatrics",
+      "doctorName": "Dr.Lokesh",
+      "reasonForBooking": "Check up",
+      "appointmentDate": "2025-10-29",
+      "slot": "morning",
+      "timeRange": "9AM - 10AM",
+      "approvalStatus": "cancelled"
+    },
+    {
+      "id": "8eb0",
+      "patientName": "Teju",
+      "speciality": "Dermatology",
+      "doctorName": "Dr.Ruchi Patil",
+      "reasonForBooking": "fever",
+      "appointmentDate": "2025-10-20",
+      "slot": "morning",
+      "timeRange": "9AM - 10AM",
+      "approvalStatus": "pending"
+    },
+    {
+      "id": "fe2b",
+      "patientName": "vivek kumar",
+      "speciality": "Neurology",
+      "doctorName": "Dr.Amey Patil",
+      "reasonForBooking": "check up",
+      "appointmentDate": "2025-11-14",
+      "slot": "morning",
+      "timeRange": "9AM - 10AM",
+      "approvalStatus": "Cancelled"
+    },
+    {
+      "id": "f538",
+      "patientName": "vivek kumar",
+      "speciality": "Dermatology",
+      "doctorName": "Dr.Ruchi Patil",
+      "reasonForBooking": "test",
+      "appointmentDate": "2025-11-26",
+      "slot": "morning",
+      "timeRange": "12PM - 1PM",
+      "approvalStatus": "Approved"
+    }
+  ]
+}
